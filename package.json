@@ -1,0 +1,35 @@
+{
+  "name": "palimeal",
+  "version": "1.0.0",
+  "description": "A NodeJS web service which through a REST endpoint, accept a list of meal IDs and return the ID of the meal that requires the least number of ingredients to prepare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon routes/api/index.js --exec babel-node --presets env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agavitalis/palimeal.git"
+  },
+  "keywords": [
+    "Meals",
+    "Pali",
+    "Labs",
+    "Vitalis"
+  ],
+  "author": "Ogbonna Vitalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agavitalis/palimeal/issues"
+  },
+  "homepage": "https://github.com/agavitalis/palimeal#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
