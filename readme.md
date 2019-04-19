@@ -1,6 +1,6 @@
 <p align="center"><b>Pali Meals</b></p>
 
-This application is little web service, that provides takes in a list of food IDs, seperated with comma, querying  TheMealDb API, returns the meals with the least number of ingredents
+This application is a web service, which takes in a list of food IDs, seperated with commas, querying  TheMealDb API, returns the meals with the least number of ingredents
 
 
 ##	Getting Started  ##
