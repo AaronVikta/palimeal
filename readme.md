@@ -62,7 +62,5 @@ The project will be live on port 3500, hence can be accessed using Localhost:300
 	This project is licensed under the ISC License 
 
 ##	Acknowledgments
-[I wish to acknowledge my friends and family for their encourgements and for always beliving in me]
-
-	
+[I wish to acknowledge my friends and family for their encourgements and for always believing in me]
 
