@@ -23,11 +23,11 @@ app.use(express.static('public'))
 
 
 //import routes 
-import routes from './api/routes.js'
+import routes from './api/api.js'
 app.use(routes)
 
 //server the application
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
 	console.log(`Application running and listening to port ${PORT}`);
 });

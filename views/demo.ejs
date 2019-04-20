@@ -68,8 +68,13 @@
 								<span>Tasty Meals</span>
 							</h3>
 							<p class="movetxt text-white mb-4">Find how much ingredients those meals cost</p>
-							<p class="movetxt text-white mb-4">To start: make a post request to "http://localhost:3000/meals" with a comma(,) seperated list of your meal ids</p>
-							<p class="movetxt text-white mb-4">See the readme or <a href="/demo">demo</a> for more details</p>
+							<div class="search-agile">
+								<form action="#" method="post">
+									<input type="search" name="search" placeholder="Search with IDs here..." required="">
+									<input type="submit" value="Search">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -81,9 +86,14 @@
 							<h3 class="text-white mb-md-4 mb-3">Want to prepare a  
 								<span>Tasty Meal?</span>
 							</h3>
-							<p class="movetxt text-white mb-4">Find how much ingredients those meals cost</p>
-							<p class="movetxt text-white mb-4">To start: make a post request to "http://localhost:3000/meals" with a comma(,) seperated list of your meal ids</p>
-							<p class="movetxt text-white mb-4">See the readme <a href="/demo">demo</a> for more details</p>
+							<p class="movetxt text-white mb-4">Checkout how much ingredients it will cost</p>
+							<div class="search-agile">
+								<form action="#" method="post">
+									<input type="search" name="search" placeholder="Search with IDs here..." required="">
+									<input type="submit" value="Search">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -121,7 +131,7 @@
 				auto: true,
 				pager: false,
 				nav: false,
-				speed: 5000,
+				speed: 800,
 				namespace: "callbacks",
 				before: function () {
 					$('.events').append("<li>before event fired.</li>");

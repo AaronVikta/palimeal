@@ -45,6 +45,8 @@ npm  start
 
 The project will be live on port 3500, hence can be accessed using Localhost:3000
 
+**2. Using the API:**
+
 
 ### Technologies Used
 
