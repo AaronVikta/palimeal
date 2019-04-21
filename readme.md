@@ -46,7 +46,16 @@ npm  start
 The project will be live on port 3500, hence can be accessed using Localhost:3000
 
 **2. Using the API:**
+To user this web service, make a post request to the endpont:
 
+http://localhost:3000/api/meals
+
+Your Meal Ids should be sent along in JSON format with the key "meal_ids" and the values comma(,) seperated
+as illustrated:
+
+{
+    "meal_ids": "52770,52780,52782,52784"
+}
 
 ### Technologies Used
 
