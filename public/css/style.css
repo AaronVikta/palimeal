@@ -31,6 +31,7 @@ a:hover {
 }
 
 input[type="button"],
+.search,
 input[type="submit"] {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -39,6 +40,7 @@ input[type="submit"] {
     -ms-transition: 0.5s all;
 }
 
+.search,
 input[type="button"]:hover,
 input[type="submit"]:hover {
     transition: 0.5s all;
@@ -569,7 +571,7 @@ p.movetxt {
     border-radius: 10px 0 0 10px;
 }
 
-.search-agile input[type="submit"] {
+.search-agile .search {
     color: #fff;
     font-size: 16px;
     outline: none;
@@ -587,7 +589,7 @@ p.movetxt {
     transition: 0.5s all;
 }
 
-.search-agile input[type="submit"]:hover {
+.search-agile .search:hover {
     background: #000;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -622,11 +624,11 @@ p.movetxt {
 
 .agile-wthree-works {
     background: url(../images/bg3.jpg) no-repeat left;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    -ms-background-size: contain;
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    -ms-background-size: auto;
 }
 
 .grids-w3ls-right-2 h4 {
@@ -931,7 +933,7 @@ footer {
         font-size: 32px;
     }
 
-    .search-agile input[type="submit"] {
+    .search-agile .search {
         padding: 13px 30px;
     }
 
@@ -1052,7 +1054,7 @@ footer {
         font-size: 14px;
     }
 
-    .search-agile input[type="submit"] {
+    .search-agile .search {
         padding: 12px 30px;
         font-size: 14px;
     }
@@ -1086,7 +1088,7 @@ footer {
         flex-basis: 60%;
     }
 
-    .search-agile input[type="submit"] {
+    .search-agile .search {
         flex-basis: 20%;
     }
     .banner-text {
@@ -1186,7 +1188,7 @@ footer {
         padding: 11px 12px;
         font-size: 13px;
     }
-    .search-agile input[type="submit"] {
+    .search-agile .search {
         padding: 11px 18px;
         font-size: 13px;
     }

@@ -27,7 +27,7 @@ import routes from './api/api.js'
 app.use(routes)
 
 //server the application
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
 	console.log(`Application running and listening to port ${PORT}`);
 });

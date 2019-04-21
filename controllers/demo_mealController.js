@@ -4,6 +4,7 @@ exports.sort_meals_demo =  function(req, res, error){
 
     //grab and split the IDs from the form sent by the user
     let meal_ids = req.body.meal_ids
+   
     var meal_array = meal_ids.split(",")
 
     //make sure the array is not empty
@@ -69,8 +70,7 @@ exports.sort_meals_demo =  function(req, res, error){
                     //make another call to get its details
                     axios.get('https://www.themealdb.com/api/json/v1/1/lookup.php?i='+ meal.meal_id)
                     .then((response)=>{
-
-                        res.render( 'demo_meals', {meal: response.data.meals})
+                        res.send({meal: response.data.meals})
                     })
                     .catch( (error)=> {
                         console.log(error);
