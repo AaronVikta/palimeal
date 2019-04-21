@@ -2,10 +2,10 @@
   "name": "palimeal",
   "version": "1.0.0",
   "description": "A NodeJS web service which through a REST endpoint, accept a list of meal IDs and return the ID of the meal that requires the least number of ingredients to prepare.",
-  "main": "index.js",
+  "main": "routes/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node routes/index.js --exec babel-node --presets env"
+    "start": "nodemon routes/index.js --exec babel-node --presets env"
   },
   "repository": {
     "type": "git",

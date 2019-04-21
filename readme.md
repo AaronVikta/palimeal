@@ -50,7 +50,7 @@ To user this web service, make a post request to the endpont:
 
 http://localhost:3000/api/meals
 
-Your Meal Ids should be sent along in JSON format with the key "meal_ids" and the values comma(,) seperated
+Your Meal Ids should be sent along in JSON format with the key as "meal_ids" and the values comma(,) seperated
 as illustrated:
 
 {
