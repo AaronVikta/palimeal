@@ -1,1 +1,1 @@
-web:node routes/index.js --exec babel-node --presets env
+web:node dist/index.js
